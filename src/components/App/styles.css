@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.app {
+  width: 80%;
+  height: 95vh;
+  background-color: white;
+  margin: 1em auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow:0 0 20px 2px #000;
+}
+
+

@@ -1,0 +1,33 @@
+.articles__container{
+  width: 65%;
+  max-height: 73vh;
+  overflow: auto;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.articles__container::-webkit-scrollbar-thumb {
+  background-color: red;
+}
+.articles__article{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 1rem;
+width: 20em ;
+height: 30em;
+border: 3px dashed lightgrey;
+border-radius: 1rem;
+margin-bottom: 1rem;
+}
+.articles__image{
+  width: 15em;
+  height: 30em;
+  margin-bottom: 1rem;
+  border: 1px dashed yellow;
+}
+.articles__articleName{
+ font-size: 1rem;
+}
